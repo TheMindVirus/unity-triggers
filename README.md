@@ -6,11 +6,9 @@ Unity 2019 Animation Triggers for Tabletop Simulator Modding v3.0
 ## Noteworthy
 A lot of bugfixing has gone into making this project work properly in Tabletop Simulator.
 To summarise the most fatal issues:
-```
  - The Animation and Animator Views (yes they are different things) are both missing by default
  - Animation States cannot be played simultaneously, instead they must be played through a "Blend Tree"
  - The Blend Tree is set to 1D mode and random blend values which are incorrect defaults (should be 2D Freeform)
-```
 There are too many other issues with importing from Blender to Unity to note, but here are just some of them:
  - missing animation view
  - missing animator layers view
@@ -22,7 +20,7 @@ There are too many other issues with importing from Blender to Unity to note, bu
  - objects have the wrong animations applied to them from other objects
  - weight for new layers is set to 0 by default bar the first one which is set to 1
  - imported animations are read-only by default
- - preview/select buttons in animation view break in certain contexts (when the parent object is not selected in play mode first)
+ - preview/select buttons in animation view broken when the parent object is not selected in play mode first
  - loop button is missing or greyed out in valid contexts
  - weight for first layer is locked at 1 regardless of if it's the built-in base layer or not
  - labels missing from animation blocks randomly
