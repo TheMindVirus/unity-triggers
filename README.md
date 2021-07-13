@@ -1,7 +1,7 @@
 # unity-triggers
 Unity 2019 Animation Triggers for Tabletop Simulator Modding v3.0
 
-![playable](https://github.com/TheMindVirus/unity-triggers/blob/main/playable.gif)
+![playable](https://github.com/TheMindVirus/unity-triggers/blob/blender/playable.gif)
 
 ## Noteworthy
 A lot of bugfixing has gone into making this project work properly in Tabletop Simulator.
