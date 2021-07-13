@@ -26,3 +26,4 @@ There are too many other issues with importing from Blender to Unity to note, bu
  - Duplicate animation blocks with objects inheriting incorrect animations from other objects
  - Animation view forgets preference of dopesheet or curves on deletion of object
  - Extra unwanted key-frame sub-curves added which just take up space and make it harder to smooth
+ - Various other sub-object rotation scaling and positioning issues
