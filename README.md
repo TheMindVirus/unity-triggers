@@ -11,8 +11,6 @@ To summarise the most fatal issues:
  - The Blend Tree is set to 1D mode and random blend values which are incorrect defaults (should be 2D Freeform)
 
 There are too many other issues with importing from Blender to Unity to note, but here are just some of them:
- - Missing animation view
- - Missing animator layers view
  - Animator layers view doesn't show animations for subobjects only the parent
  - Animations imported incorrectly or not at all
  - Only the first animation is selected as a default instead of all the animations present in the scene
