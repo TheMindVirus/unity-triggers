@@ -9,7 +9,7 @@ To summarise the most fatal issues:
  - The Animation and Animator Views (yes they are different things) are both missing by default
  - Animation States cannot be played simultaneously, instead they must be played through a "Blend Tree"
  - The Blend Tree is set to 1D mode and random blend values which are incorrect defaults (should be 2D Freeform)
- - 
+
 There are too many other issues with importing from Blender to Unity to note, but here are just some of them:
  - missing animation view
  - missing animator layers view
