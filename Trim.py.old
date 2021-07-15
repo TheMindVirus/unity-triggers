@@ -20,11 +20,11 @@ def print(*args):
 def error(*args):
     console("ERROR", *args)
 
-for obj in bpy.data.objects["Model"].children:
-    for i in range(0, len(obj.children)):
-        if i != 0:
-            try:
+try:
+    for obj in bpy.data.objects["Model"].children:
+        for i in range(0, len(obj.children)):
+            if i != 0:
                 bpy.data.objects.remove(obj.children[i], do_unlink = True)
-            except Exception as e:
-                error(type(e).__name__, ": ", e)
-print("Done!")
+    print("Done!")
+except Exception as e:
+    error(type(e).__name__, ": ", e)
