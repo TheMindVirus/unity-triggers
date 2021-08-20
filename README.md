@@ -1,6 +1,4 @@
 # unity-triggers
-Unity 2019 Animation Triggers for Tabletop Simulator Modding v3.0
+Unity 2021 Version of Trim.py script ported to C# (GameObject->Prefabs->Trim)
 
-Additional Files for if Unity complains that the Blender source files are missing from the project
-
-![notworking](https://github.com/TheMindVirus/unity-triggers/blob/blender/notworking.png)
+![screenshot](https://github.com/TheMindVirus/unity-triggers/blob/unity-trim/screenshot.png)
